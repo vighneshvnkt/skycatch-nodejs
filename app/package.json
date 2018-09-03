@@ -1,0 +1,44 @@
+{
+  "name": "skycatch",
+  "version": "1.0.0",
+  "description": "AWS application for Skycatch using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "aws",
+    "geotagging"
+  ],
+  "author": "Vighnesh Venkatakrishnan",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "asyncloop": "0.0.1",
+    "aws-sdk": "^2.302.0",
+    "axios": "^0.18.0",
+    "cli-graph": "^3.2.2",
+    "csv": "^3.1.0",
+    "csv-parse": "^3.0.0",
+    "exif": "^0.6.0",
+    "exif-js": "^2.3.0",
+    "exifreader": "^2.5.0",
+    "express": "^4.16.3",
+    "fast-csv": "^2.4.1",
+    "fast-exif": "^1.0.1",
+    "function-plot": "^1.18.1",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jdataview": "^2.5.0",
+    "jsonfile": "^4.0.0",
+    "knox": "^0.9.2",
+    "node-async-loop": "^1.2.2",
+    "npm": "^6.4.0",
+    "plotly": "^1.0.6",
+    "polygon": "^1.0.2",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19"
+  }
+}
